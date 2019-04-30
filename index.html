@@ -174,25 +174,25 @@
       </div>
       <div class="col-sm-8 text-center">
         <h4>Social Media</h4>
-        <a href="https://facebook.com/robi.tkoder" target="_blank" class="btn btn-border rounded-circle" style="border: 1px solid white">
+        <a href="https://facebook.com/robi.tkoder" target="_blank" class="btn btn-border rounded-circle" data-toggle="tooltip" data-placement="left" title="Facebook" style="border: 1px solid white">
           <i class="mdi mdi-facebook"></i>
         </a>
-        <a href="https://youtube.com/c/tamankodekode" target="_blank" class="btn btn-border rounded-circle" style="border: 1px solid white">
+        <a href="https://youtube.com/c/tamankodekode" target="_blank" class="btn btn-border rounded-circle" data-toggle="tooltip" data-placement="left" title="Youtube"  style="border: 1px solid white">
           <i class="mdi mdi-youtube text-danger"></i>
         </a>
-        <a href="https://twitter.com/hadihammurabi" target="_blank" class="btn btn-border rounded-circle" style="border: 1px solid white">
+        <a href="https://twitter.com/hadihammurabi" target="_blank" class="btn btn-border rounded-circle" data-toggle="tooltip" data-placement="left" title="Twitter"  style="border: 1px solid white">
           <i class="mdi mdi-twitter"></i>
         </a>
-        <a href="https://instagram.com/hadihammurabi" target="_blank" class="btn btn-border rounded-circle" style="border: 1px solid white">
+        <a href="https://instagram.com/hadihammurabi" target="_blank" class="btn btn-border rounded-circle" data-toggle="tooltip" data-placement="left" title="Instagram"  style="border: 1px solid white">
           <i class="mdi mdi-instagram text-danger"></i>
         </a>
-        <a href="https://t.me/hadihammurabi" target="_blank" class="btn btn-border rounded-circle" style="border: 1px solid white">
+        <a href="https://t.me/hadihammurabi" target="_blank" class="btn btn-border rounded-circle" data-toggle="tooltip" data-placement="left" title="Telegram"  style="border: 1px solid white">
           <i class="mdi mdi-telegram"></i>
         </a>
-        <a href="mailto:hadihammurabi@gmail.com" target="_blank" class="btn btn-border rounded-circle" style="border: 1px solid white">
+        <a href="mailto:hadihammurabi@gmail.com" target="_blank" class="btn btn-border rounded-circle" data-toggle="tooltip" data-placement="left" title="Email"  style="border: 1px solid white">
           <i class="mdi mdi-email text-danger"></i>
         </a>
-        <a href="https://linkedin.com/in/hadihammurabi" target="_blank" class="btn btn-border rounded-circle" style="border: 1px solid white">
+        <a href="https://linkedin.com/in/hadihammurabi" target="_blank" class="btn btn-border rounded-circle" data-toggle="tooltip" data-placement="left" title="Linkedin"  style="border: 1px solid white">
           <i class="mdi mdi-linkedin"></i>
         </a>
       </div>
@@ -203,7 +203,14 @@
   </div>
 
   <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/popper.js"></script>
   <script src="assets/js/bootstrap.js"></script>
+
+  <script>
+    $(function() {
+      $('[data-toggle=tooltip]').tooltip();
+    });
+  </script>
 </body>
 
 </html>
